@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Using double quotes:</p>
+<pre>
+<?php
+$x = "John";
+echo "Hello $x\n";
+echo "\tHow are you?\n";
+?>
+</pre>
+
+<p>Using single quotes:</p>
+<pre>
+<?php
+$x = 'John';
+echo 'Hello $x\n';
+echo '\tHow are you?\n';
+?>
+</pre>
+
+</body>
+</html>
